@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: prince-junior-v2-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/Junior-Ezed/PRINCE-JUNIOR-V2-
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
